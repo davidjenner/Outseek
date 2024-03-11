@@ -13,7 +13,9 @@
       border-image: url('https://archive.org/download/win10-backgrounds/Win10%20DBs/img0_3840x2160.jpg') 30 round;
       background-size: cover;
       background-position: center;
-      max-height: 600px; /* Add max-height to the email client container */
+      max-height: 100vh;
+      overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
+    }
       overflow: auto; /* Add overflow property to enable scrolling */
     }
     .email-client {
@@ -209,6 +211,8 @@
   </div>
 
 
+
+
   <div class="bottom-navbar">
     <i class="fab fa-windows"></i>
     <div class="flex items-center justify-center flex-grow"> <!-- Center the search box -->
@@ -339,3 +343,4 @@
   </script>
 </body>
 </html>
+
